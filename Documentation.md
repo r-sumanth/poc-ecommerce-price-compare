@@ -22,16 +22,16 @@ The script implements a **3-stage Agentic Workflow**:
 ## Screenshots
 
 ### Retrieveing results from search, when a new product name is queried.
-![Agentic Interface](images/interface_new_fetch)
+![Agentic Interface](images/interface_new_fetch.png)
 
 ### Search result from Amazon
-![Search Interface Amazon](images/search_amazon)
+![Search Interface Amazon](images/search_amazon.png)
 
 #### Search result from Flipkart
-![Search Interface Flipkart](images/search_flipkart)
+![Search Interface Flipkart](images/search_flipkart.png)
 
 ### Retrieveing results from DB for existing products, even when product name doesnt match exactly.
-![Agentic Interface](images/interface_db_fetch)
+![Agentic Interface](images/interface_db_fetch.png)
 
 ### Database accumulated by products queried.
-![DB Interface](images/db_query_result)
+![DB Interface](images/db_query_result.png)
