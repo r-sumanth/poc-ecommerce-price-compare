@@ -16,7 +16,7 @@ The script implements a **3-stage Agentic Workflow**:
 
 | Challenge | Technical Solution |
 | --- | --- |
-| **Unable to detect changes in Variants or Versions** | A very slight change in the model name or variant cannot be identified by the LLMs. The script wasn't able to differentiate between a 55inch and 43inch TV of the same class. |
+| **Unable to detect changes in Variants or Versions** | A very slight change in the model name or variant cannot be identified by the light LLMs. Gemma3:12b wasn't able to differentiate between a 55inch and 43inch TV of the same class. Switching to Gemini-2.5-flash sloved this issue, but this becomes computationally expensive. |
 | **Noise & Token Limits** | Sometimes hallucinations by LLMs can provide unrealistic responses when the token length of scraped webpage exceeds the limit. |
 
 
