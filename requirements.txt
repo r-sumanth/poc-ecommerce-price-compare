@@ -1,5 +1,5 @@
 # Scripting language
-python=3.11.3
+python==3.11.3
 
 # Web Framework
 gradio>=4.0.0
