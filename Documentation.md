@@ -18,3 +18,20 @@ The script implements a **3-stage Agentic Workflow**:
 | --- | --- |
 | **Unable to detect changes in Variants or Versions** | A very slight change in the model name or variant cannot be identified by the LLMs. The script wasn't able to differentiate between a 55inch and 43inch TV of the same class. |
 | **Noise & Token Limits** | Sometimes hallucinations by LLMs can provide unrealistic responses when the token length of scraped webpage exceeds the limit. |
+
+## Screenshots
+
+### Retrieveing results from search, when a new product name is queried.
+![Agentic Interface](images/interface_new_fetch)
+
+### Search result from Amazon
+![Search Interface Amazon](images/search_amazon)
+
+#### Search result from Flipkart
+![Search Interface Flipkart](images/search_flipkart)
+
+### Retrieveing results from DB for existing products, even when product name doesnt match exactly.
+![Agentic Interface](images/interface_db_fetch)
+
+### Database accumulated by products queried.
+![DB Interface](images/db_query_result)
