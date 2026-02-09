@@ -1,0 +1,16 @@
+# Scripting language
+python=3.11.3
+
+# Web Framework
+gradio>=4.0.0
+
+# LLM Integration (Compatible with OpenAI & Ollama V1)
+openai>=1.3.0
+python-dotenv>=1.0.0
+
+# Data Extraction & Processing
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+
+# Database Persistence
+psycopg2-binary>=2.9.0
