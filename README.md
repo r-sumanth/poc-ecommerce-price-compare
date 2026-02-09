@@ -1,6 +1,6 @@
 # Project Documentation: AI powered Price Tracker
 
-## 1. Business Objective
+## 1. Objective
 
 To provide a tool that automates price tracking across major e-commerce platforms of Amazon and Flipkart. The system reduces human overhead by autonomously reconciling product variants (entity resolution) and ensures data accuracy by combining raw web scraping with LLM-based verification.
 
@@ -12,7 +12,7 @@ The script implements a **3-stage Agentic Workflow**:
 * **Intelligent Entity Resolution:** Uses an LLM to perform fuzzy matching between user queries and existing database entries (e.g., matching "iPhone 15 128GB" with "Apple 128gb iPhone 15").
 * **Context-Aware Extraction:** Scrapes raw HTML from Amazon and Flipkart, cleans the noise, and can use **offline and online LLMs** to parse unstructured text into structured JSON data.
 
-## 3. Technical Challenges & Solutions
+## 3. Technical Challenges
 
 | Challenge | Technical Solution |
 | --- | --- |
