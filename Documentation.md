@@ -16,5 +16,5 @@ The script implements a **3-stage Agentic Workflow**:
 
 | Challenge | Technical Solution |
 | --- | --- |
-| **Unable to detect changes in Variants or Versions** | A very slight change in the model name or variant cannot be identified by the LLMs. |
+| **Unable to detect changes in Variants or Versions** | A very slight change in the model name or variant cannot be identified by the LLMs. The script wasn't able to differentiate between a 55inch and 43inch TV of the same class. |
 | **Noise & Token Limits** | Sometimes hallucinations by LLMs can provide unrealistic responses when the token length of scraped webpage exceeds the limit. |
